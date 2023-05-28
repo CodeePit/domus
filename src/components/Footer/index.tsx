@@ -51,7 +51,7 @@ export const Footer = () => (
                 {CONTACTS.map((contact) => (
                   <li key={contact.id} className="w-fit">
                     <span className="flex items-center gap-2 w-fit">
-                      <contact.Icon className="fill-black h-4 w-auto" />
+                      <contact.Icon className="fill-black max-h-4 h-full w-auto" />
                       <span className="max-md:break-all leading-5">{contact.text}</span>
                     </span>
                   </li>
