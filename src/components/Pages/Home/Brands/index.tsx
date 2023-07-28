@@ -5,20 +5,12 @@ import Brand2 from '../../../../assets/imgs/brands/brand-2.png';
 import Brand3 from '../../../../assets/imgs/brands/brand-3.png';
 import Brand4 from '../../../../assets/imgs/brands/brand-4.png';
 import Brand5 from '../../../../assets/imgs/brands/brand-5.png';
+import Brand6 from '../../../../assets/imgs/brands/brand-6.png';
+import Brand7 from '../../../../assets/imgs/brands/brand-7.png';
 import Image from 'next/image';
 
-const BRANDS = [
-  Brand1,
-  Brand2,
-  Brand3,
-  Brand4,
-  Brand5,
-  Brand1,
-  Brand2,
-  Brand3,
-  Brand4,
-  Brand5,
-];
+const BRANDS_ITEMS = [Brand1, Brand2, Brand3, Brand4, Brand5, Brand6, Brand7];
+const BRANDS = [...BRANDS_ITEMS, ...BRANDS_ITEMS];
 
 export const Brands = () => (
   <section className="max-w text-center">

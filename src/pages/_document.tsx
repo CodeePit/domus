@@ -3,7 +3,7 @@ import Script from 'next/script';
 
 const Document = () => {
   return (
-    <Html lang="en">
+    <Html lang="pt-br">
       <Head>
         {/* Código do GTM com JavaScript */}
         <Script id="google-analytics" strategy="afterInteractive">
