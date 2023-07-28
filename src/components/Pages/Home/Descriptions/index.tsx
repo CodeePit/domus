@@ -24,7 +24,11 @@ export const Descriptions = () => (
           Fique por dentro das novidades,
           <br /> promoções e muito mais
         </span>
-        <Link href="/" className="btn">
+        <Link
+          href="https://www.instagram.com/domusconstrucao/?igshid=MmIzYWVlNDQ5Yg%3D%3D"
+          target="_blank"
+          className="btn"
+        >
           <span>acessar</span>
         </Link>
       </div>

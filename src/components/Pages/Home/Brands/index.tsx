@@ -48,7 +48,7 @@ export const Brands = () => (
         >
           <div className="flex items-center justify-center">
             <div className="w-full flex items-center justify-center p-2 h-[94px]">
-              <Image src={brand} alt="" className="h-auto w-auto" />
+              <Image src={brand} alt="" className="h-auto w-32" />
             </div>
           </div>
         </Slider.Slide>
