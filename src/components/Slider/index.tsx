@@ -1,6 +1,7 @@
 import React from 'react';
-import SwiperCore, { Navigation, Autoplay } from 'swiper';
+import SwiperCore from 'swiper';
 import { Swiper, SwiperSlide, type SwiperProps } from 'swiper/react';
+import { Navigation, Autoplay } from 'swiper/modules'
 
 SwiperCore.use([Navigation, Autoplay]);
 
@@ -13,6 +14,7 @@ const SliderRoot = ({
     <div className="swiper-reset relative">
       <Swiper
         grabCursor
+        modules={[Navigation, Autoplay]}
         navigation={{
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
