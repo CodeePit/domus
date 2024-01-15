@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.domusmateriaisconstrucao.com.br/
+
+# Sitemaps
+Sitemap: https://www.domusmateriaisconstrucao.com.br/sitemap.xml

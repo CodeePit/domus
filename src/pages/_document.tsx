@@ -16,7 +16,10 @@ const Document = () => {
           `}
         </Script>
         {/* Fim do código do GTM com JavaScript */}
-        <meta name="description" content="Domus - uma marca para você chamar de lar" />
+        <meta
+          name="description"
+          content="Domus Araçoiaba da Serra - uma marca para você chamar de lar"
+        />
       </Head>
       <body>
         <Main />
