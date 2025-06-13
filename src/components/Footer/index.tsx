@@ -62,7 +62,7 @@ export const Footer = () => (
                   <span className="flex items-center gap-2">
                     <PinIcon className="fill-black h-8 w-auto" />
                     <span className="leading-5 lg:whitespace-nowrap">
-                      Rua Benedito Antunes Ribeiro, 721
+                      Rua Benedito Antunes Ribeiro, 724
                       <br />
                       Araçoiaba da Serra - Jd. Maria da Glória
                     </span>
